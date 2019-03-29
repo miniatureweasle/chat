@@ -1,6 +1,6 @@
 # Simple Chat 
 
-![Alt Text](chat/eg/two_person_chat.gif)
+![Alt Text](demo/two_person_chat.gif)
 
 ## Features
 
