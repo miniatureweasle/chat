@@ -1,6 +1,6 @@
 # Simple Chat 
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Alt Text](chat/eg/two_person_chat.gif)
 
 ## Features
 
