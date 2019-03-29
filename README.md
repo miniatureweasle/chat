@@ -1,8 +1,8 @@
 # Simple Chat
-[![Node version](https://img.shields.io/node/v/[11.10.0].svg?style=flat)](http://nodejs.org/download/)
-[![React version](https://img.shields.io/react/v/[16.6.0].svg?style=flat)]()
-[![React version](https://img.shields.io/qunit/v/[2.9.2].svg?style=flat)]()
 
+![npm](https://img.shields.io/npm/v/node.svg?label=node&style=popout-square)
+![npm](https://img.shields.io/npm/v/react.svg?label=react&style=popout-square)
+![npm](https://img.shields.io/npm/v/qunit.svg?label=qunit&style=popout-square)
 
 
 
