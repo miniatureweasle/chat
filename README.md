@@ -10,16 +10,21 @@
 
 ## Features
 
-* React 16
-* Webpack 4
-* Babel 7
-* NodeJS
+* [React 16](https://reactjs.org/)
+* [Webpack 4](https://webpack.js.org/)
+* [Babel 7](https://babeljs.io/docs/en/v7-migration)
+* [Websocket](https://www.npmjs.com/package/websocket)
 
 ## Installation
 
 * `git clone git@https://github.com/miniatureweasle/chat.git`
-* cd chat 
-* npm install
-* node src/server.js
-* npm start
+* `cd chat` 
+* `npm install`
+* `node src/server.js`
+* `npm start`
 * visit `http://localhost:8080/`
+
+## Testing
+
+* `cd chat`
+* `qunit test`
