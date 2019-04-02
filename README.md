@@ -5,7 +5,6 @@
 ![npm](https://img.shields.io/npm/v/qunit.svg?label=qunit&style=popout-square)
 
 
-
 ![Alt Text](demo/two_person_chat.gif)
 
 ## Features
@@ -18,13 +17,14 @@
 ## Installation
 
 * `git clone git@https://github.com/miniatureweasle/chat.git`
-* `cd chat` 
-* `npm install`
-* `node src/server.js`
-* `npm start`
+* cd chat 
+* node src/server.js
+* open new terminal tab
+* npm install
+* npm start
 * visit `http://localhost:8080/`
 
 ## Testing
 
-* `cd chat`
-* `qunit test`
+* cd chat
+* qunit test
