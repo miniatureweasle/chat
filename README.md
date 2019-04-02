@@ -1,20 +1,30 @@
-# minimal-react-webpack-babel-setup
+# Simple Chat
 
-[![Build Status](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup.svg?branch=master)](https://travis-ci.org/rwieruch/minimal-react-webpack-babel-setup) [![Slack](https://slack-the-road-to-learn-react.wieruch.com/badge.svg)](https://slack-the-road-to-learn-react.wieruch.com/) [![Greenkeeper badge](https://badges.greenkeeper.io/rwieruch/minimal-react-webpack-babel-setup.svg)](https://greenkeeper.io/)
+![npm](https://img.shields.io/npm/v/node.svg?label=node&style=popout-square)
+![npm](https://img.shields.io/npm/v/react.svg?label=react&style=popout-square)
+![npm](https://img.shields.io/npm/v/qunit.svg?label=qunit&style=popout-square)
 
-Read more about it: [The Minimal React Webpack Babel Setup](https://www.robinwieruch.de/minimal-react-webpack-babel-setup/)
+
+![Alt Text](demo/two_person_chat.gif)
 
 ## Features
 
-* React 16
-* Webpack 4
-* Babel 7
-* Hot Module Replacement
+* [React 16](https://reactjs.org/)
+* [Webpack 4](https://webpack.js.org/)
+* [Babel 7](https://babeljs.io/docs/en/v7-migration)
+* [Websocket](https://www.npmjs.com/package/websocket)
 
 ## Installation
 
-* `git clone git@github.com:rwieruch/minimal-react-webpack-babel-setup.git`
-* cd minimal-react-webpack-babel-setup
+* `git clone git@https://github.com/miniatureweasle/chat.git`
+* cd chat 
+* node src/server.js
+* open new terminal tab
 * npm install
 * npm start
 * visit `http://localhost:8080/`
+
+## Testing
+
+* cd chat
+* qunit test
