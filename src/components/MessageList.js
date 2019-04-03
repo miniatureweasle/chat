@@ -3,11 +3,11 @@ import Message from './Message.js';
 import ReactDOM from 'react-dom';
 
 class MessageList extends React.Component {
-   constructor() {
+  constructor() {
     super()
     this.getMessageStyleClassName.bind(this)
   }
-    
+
   componentWillUpdate() {
     const node = ReactDOM.findDOMNode(this);
     this.shouldScrollToBottom =
@@ -20,12 +20,12 @@ class MessageList extends React.Component {
       node.scrollTop = node.scrollHeight;
     }
   }
-    
-  getMessageStyleClassName(message){
-      if (message.authorId == this.props.authorId){
-          return 'bubble-right'
-      }
-      return 'bubble-left'
+
+  getMessageStyleClassName(message) {
+    if (message.authorId == this.props.authorId) {
+      return 'bubble-right'
+    }
+    return 'bubble-left'
   }
 
   render() {
