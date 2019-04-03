@@ -4,7 +4,7 @@ import MessageList from './components/MessageList.js'
 import Title from './components/Title.js'
 import Modal from 'react-modal'
 
-const customStyles = {
+const popupStyle = {
   content: {
     top: '50%',
     left: '50%',
@@ -101,8 +101,8 @@ class App extends React.Component {
           isOpen={this.state.modalOpen}
           onAfterOpen={this.afterOpenModal}
           onRequestClose={this.closeModal}
-          style={customStyles}
-          contentLabel="Example Modal"
+          style={popupStyle}
+          contentLabel="Username Input"
         >
           <h2 ref={subtitle => (this.subtitle = subtitle)}>Enter your name</h2>
           <form>
