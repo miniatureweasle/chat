@@ -4,7 +4,7 @@ class Sendor extends React.Component {
   constructor() {
     super();
     this.state = {
-      message: ''
+      message: '',
     };
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -12,14 +12,14 @@ class Sendor extends React.Component {
 
   handleChange(e) {
     this.setState({
-      message: e.target.value
+      message: e.target.value,
     });
   }
 
   handleSubmit(e) {
     e.preventDefault();
     this.setState({
-      message: ''
+      message: '',
     });
     this.props.sendMessage(this.state.message);
   }
