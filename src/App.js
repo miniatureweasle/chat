@@ -117,7 +117,7 @@ class App extends React.Component {
         </Modal>
         <Title />
         <MessageList authorId={this.state.authorId} messages={this.state.history} />
-        <InputBox sendMessage={this.sendMessage} />{' '}
+        <InputBox sendMessage={this.sendMessage} />
       </div>
     )
   }
